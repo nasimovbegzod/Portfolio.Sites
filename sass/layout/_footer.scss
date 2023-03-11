@@ -1,0 +1,67 @@
+.footer {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+
+  &__location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      padding-left: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 25px;
+      color: #000000;
+    }
+  }
+
+  &__telephon1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      padding-left: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.06em;
+      color: #000000;
+    }
+  }
+
+  &__share {
+    img {
+      padding-left: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+      margin-bottom: 15px;
+      padding: 0 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+}

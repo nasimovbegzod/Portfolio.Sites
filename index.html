@@ -7,6 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Musobaqa 3</title>
   <link rel="stylesheet" href="./css/global.css">
+  <!-- owl carusel css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl carusel theme css  -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -20,8 +29,8 @@
           <div class="menu2">
             <ul>
               <li><a href="./index.html">О компании</a></li>
-              <li><a href="#">Портфолио</a></li>
-              <li><a href="#">Услуги</a></li>
+              <li><a href="./Portfolio.html">Портфолио</a></li>
+              <li><a href="./News.html">Услуги</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
@@ -65,7 +74,8 @@
             </button>
           </div>
           <div class="sec-1-right">
-            <img src="./images/homeimg1.png" alt="">
+            <!-- <img src="./images/homeimg1.png" alt=""> -->
+            <canvas id="cobe" style="width: 500px; height: 500px" width="1000" height="1000"></canvas>
           </div>
         </div>
       </div>
@@ -169,12 +179,506 @@
       </div>
 
     </section>
+
+    <section class="sec-4">
+      <div class="container portfolio">
+        <div class="portfolio__title">
+          <h1>Bajargan loyihalarimiz</h1>
+          <div class="portfolio__title__menu">
+            <ul class="portfolio__title__menu__item">
+              <li class="portfolio__title__menu__item__list">
+                <a class="portfolio__title__menu__item__list__link" href="#">Barchasi</a>
+              </li>
+              <li class="portfolio__title__menu__item__list">
+                <a class="portfolio__title__menu__item__list__link" href="#">Veb sayt</a>
+              </li>
+              <li class="portfolio__title__menu__item__list">
+                <a class="portfolio__title__menu__item__list__link" href="#">Veb dizayn</a>
+              </li>
+              <li class="portfolio__title__menu__item__list">
+                <a class="portfolio__title__menu__item__list__link" href="#">SMM</a>
+              </li>
+              <li class="portfolio__title__menu__item__list">
+                <a class="portfolio__title__menu__item__list__link" href="#">Mobil ilova</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="portfolio__main">
+          <div class="img-overlay">
+            <img src="./images/portfolio/cards1.png" alt="Avatar" class="img-overlay-image" width="100%" />
+            <h1 class="img-overlay__btn">Mobil ilova</h1>
+            <div class="overlay">
+              <div class="text">
+                <img src="./images/portfolio/korsatkich.svg" alt="" width="100%" />
+              </div>
+              <div class="text-2">UYMAKON mobil ilovasi</div>
+            </div>
+          </div>
+          <div class="img-overlay">
+            <img src="./images/portfolio/card2.png" alt="Avatar" class="img-overlay-image" width="100%" />
+            <h1 class="img-overlay__btn">Veb sites</h1>
+            <div class="overlay">
+              <div class="text">
+                <img src="./images/portfolio/korsatkich.svg" alt="" width="100%" />
+              </div>
+              <div class="text-2">UYMAKON mobil ilovasi</div>
+            </div>
+          </div>
+          <div class="img-overlay">
+            <img src="./images/portfolio/card3.png" alt="Avatar" class="img-overlay-image" width="100%" />
+            <h1 class="img-overlay__btn">SMM</h1>
+            <div class="overlay">
+              <div class="text">
+                <img src="./images/portfolio/korsatkich.svg" alt="" width="100%" />
+              </div>
+              <div class="text-2">UYMAKON mobil ilovasi</div>
+            </div>
+          </div>
+          <div class="img-overlay">
+            <img src="./images/portfolio/card4.png" alt="Avatar" class="img-overlay-image" width="100%" />
+            <h1 class="img-overlay__btn">Mobil ilova</h1>
+            <div class="overlay">
+              <div class="text">
+                <img src="./images/portfolio/korsatkich.svg" alt="" width="100%" />
+              </div>
+              <div class="text-2">UYMAKON mobil ilovasi</div>
+            </div>
+          </div>
+          <div class="img-overlay">
+            <img src="./images/portfolio/card5.png" alt="Avatar" class="img-overlay-image" width="100%" />
+            <h1 class="img-overlay__btn">Veb sites</h1>
+            <div class="overlay">
+              <div class="text">
+                <img src="./images/portfolio/korsatkich.svg" alt="" width="100%" />
+              </div>
+              <div class="text-2">UYMAKON mobil ilovasi</div>
+            </div>
+          </div>
+          <div class="img-overlay">
+            <img src="./images/portfolio/card6.png" alt="Avatar" class="img-overlay-image" width="100%" />
+            <h1 class="img-overlay__btn">SMM</h1>
+            <div class="overlay">
+              <div class="text">
+                <img src="./images/portfolio/korsatkich.svg" alt="" width="100%" />
+              </div>
+              <div class="text-2">UYMAKON mobil ilovasi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-5">
+      <div class="container servises">
+        <h1 class="service__title">Bizning xizmatlar</h1>
+        <div class="service">
+          <div class="service__card">
+            <img src="./images/services/coder.svg" alt="">
+            <div class="service__card__body">
+              <h4>Veb saytlar</h4>
+              <p>Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="./images/services/UI.svg" alt="">
+            <div class="service__card__body">
+              <h4>UI/UX Dizayn</h4>
+              <p>Biz UI/UX dizayn xizmatlarini taqdim etamiz </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="./images/services/mobililova.svg" alt="">
+            <div class="service__card__body">
+              <h4>Mobil ilovalar</h4>
+              <p>Biz eng yaxshi dizaynerlar xizmatlarini taqdim etamiz</p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="./images/services/smm.svg" alt="">
+            <div class="service__card__body">
+              <h4>SMM</h4>
+              <p>Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="./images/services/grafik dizayn.svg" alt="">
+            <div class="service__card__body">
+              <h4>Grafik dizayn</h4>
+              <p>Biz fotografiya xizmatlarini taqdim etamiz </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <img src="./images/services/coder.svg" alt="">
+            <div class="service__card__body">
+              <h4>Motion dizayn</h4>
+              <p>Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-6">
+      <div class="container">
+        <h1>Blog yangiliklarimiz</h1>
+        <div class="owl-carousel owl-theme">
+          <div class="item mb-4">
+            <div class="card border-0 shadow">
+              <div class="body-carusel">
+                <img src="./images/CArusel.img/carusel1.png" alt="">
+                <div class="overlay">
+                   <h4>«QA» mutaxassisi qanday bo'lishi kerak?</h4>
+                   <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan.</p>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        
+          <!-- item ends -->
+          <div class="item mb-4">
+            <div class="card border-0 shadow">
+              <div class="body-carusel">
+                <img src="./images/CArusel.img/carusel2.png" alt="">
+        <div class="overlay">
+          <h4>«QA» mutaxassisi qanday bo'lishi kerak?</h4>
+          <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan.
+          </p>
+        </div>
+              </div>
+            </div>
+          </div>
+        
+        
+          <!-- item ends -->
+          <div class="item mb-4">
+            <div class="card border-0 shadow">
+              <div class="body-carusel">
+                <img src="./images/CArusel.img/carusel3.png" alt="">
+        <div class="overlay">
+          <h4>«QA» mutaxassisi qanday bo'lishi kerak?</h4>
+          <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan.
+          </p>
+        </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- item ends -->
+          <div class="item mb-4">
+            <div class="card border-0 shadow">
+              <div class="body-carusel">
+                <img src="./images/CArusel.img/carusel1.png" alt="">
+        <div class="overlay">
+          <h4>«QA» mutaxassisi qanday bo'lishi kerak?</h4>
+          <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan.
+          </p>
+        </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- item ends -->
+          <div class="item mb-4">
+            <div class="card border-0 shadow">
+              <div class="body-carusel">
+                <img src="./images/CArusel.img/carusel2.png" alt="">
+        <div class="overlay">
+          <h4>«QA» mutaxassisi qanday bo'lishi kerak?</h4>
+          <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan.
+          </p>
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="sec-7">
+     <div class="container">
+      <h1>Bizning jamoa</h1>
+      <div class="owl-carousel owl-theme">
+        <div class="item mb-4">
+          <div class=" card card1  border-0 shadow">
+            <div class="body-carusel">
+              
+            </div>
+          </div>
+        </div>
+      
+        <!-- item ends -->
+        <div class="item mb-4">
+          <div class=" card card2  border-0 shadow">
+            <div class="body-carusel">
+              
+      
+            </div>
+          </div>
+        </div>
+      
+      
+        <!-- item ends -->
+        <div class="item mb-4">
+          <div class=" card card3  border-0 shadow">
+            <div class="body-carusel">
+             
+      
+            </div>
+          </div>
+        </div>
+      
+        <!-- item ends -->
+        <div class="item mb-4">
+          <div class=" card card4  border-0 shadow">
+            <div class="body-carusel">
+              
+      
+            </div>
+          </div>
+        </div>
+      
+        <!-- item ends -->
+        <div class="item mb-4">
+          <div class=" card card5  border-0 shadow">
+            <div class="body-carusel">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+
+    <section class="sec-8">
+      <div class="container forms">
+        <div class="forms__right">
+          <h1 class="forms__right__title">
+            Sizni bir finjon qahva ustida loyihangizni batafsil muhokama
+            qilishga mamnuniyat ila taklif qilamiz.
+          </h1>
+          <div class="forms__right__form">
+            <form action="#" class="custom-form">
+              <div class="form-group">
+                <input type="text" class="form-control" name="user" id="user" />
+                <label for="user" class="animated-label">Ismingiz</label>
+              </div>
+              <div class="form-group" ng-class="{'not-empty': passWord.length}">
+                <input type="number" class="form-control" name="pass" id="pass" ng-model="passWord" />
+                <label for="pass" class="animated-label">Telefon raqamingiz</label>
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" name="pass" id="pass" />
+                <label for="pass" class="animated-label">G'oyangiz xaqida qisqacha (Muhim emas)</label>
+              </div>
+            </form>
+          </div>
+          <h1>Qanday xizmatlardan foydalanishni xoxlaysiz?</h1>
+          <div class="forms__right__checkbox">
+            <div class="forms__right__checkbox__1">
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Backend </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">CRM ishlab chiqish
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Internet magazin ishlab chiqish
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Logotip va Brandbook
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Portal ishlab chiqish
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Veb dizayn </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Backend </label>
+              </p>
+            </div>
+            <div class="forms__right__checkbox__2">
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">CRM ishlab chiqish
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Internet magazin ishlab chiqish
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Logotip va Brandbook
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Portal ishlab chiqish
+                </label>
+              </p>
+              <p class="comment-form-cookies-consent">
+                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+    
+                <label for="wp-comment-cookies-consent">Veb dizayn </label>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="forms__left">
+          <h1>NIMANI MA'QUL KO'RASIZ?</h1>
+          <div class="forms__left__drinks">
+            <div class="forms__left__drinks__left">
+              <div class="forms__left__drinks__cofee">
+                <img src="./images/cofe1.png" alt="" />
+                <p>Achchiq kofe</p>
+              </div>
+              <div class="forms__left__drinks__water">
+                <img src="./images/cofe2.png" alt="" />
+                <p>Suv</p>
+              </div>
+            </div>
+            <div class="forms__left__drinks__right">
+              <div class="forms__left__drinks__milk-cofee">
+                <img src="./images/cofe3.png" alt="" />
+                <p>Sutli kofe</p>
+              </div>
+              <div class="forms__left__drinks__tea">
+                <img src="./images/cofe4.png" alt="" />
+                <p>Choy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mijoz__bolish">
+          <button class="custom-btn btn-3"><span>Mijoz bo'lish</span></button>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-
+    <div class="container footer">
+      <div class="footer__logo">
+        <h1>LOGO</h1>
+      </div>
+      <div class="footer__location">
+        <img src="./footer/location.svg" alt="" />
+        <p>
+          Manzil: Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy. <br>
+          Mo’ljal: “ASIA AUTO” avtosalon ichki qismi
+        </p>
+      </div>
+      <div class="footer__telephon">
+        <div class="footer__telephon1">
+          <img src="./footer/telephone.svg" alt="">
+          <p>+998 99 999 99 99</p>
+        </div>
+        <div class="footer__telephon1">
+          <img src="./footer/telephone.svg" alt="">
+          <p>+998 99 999 99 99</p>
+        </div>
+      </div>
+      <div class="footer__share">
+        <a href="https://t.me/najottalim"><img src="./footer/telegram.svg" alt=""></a>
+        <a href="https://t.me/najottalim"><img src="./footer/facebook.svg" alt=""></a>
+        <a href="https://t.me/najottalim"><img src="./footer/instagram.svg" alt=""></a>
+      </div>
+    </div>
   </footer>
+  <!-- jquery sdn --- -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- owl carusel js  -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- init own carusel  -->
+  
+  <script>
+    $( '.owl-carousel' ).owlCarousel( {
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 3
+        }
+      }
+    } )
+    AOS.init();
+  </script>
   <script src="./js/header.js"></script>
+  <script type="module">
+    import createGlobe from 'https://cdn.skypack.dev/cobe'
+
+    let phi = 0
+    let canvas = document.getElementById( "cobe" )
+
+    const globe = createGlobe( canvas, {
+      devicePixelRatio: 2,
+      width: 1000,
+      height: 1000,
+      phi: 0,
+      theta: 0,
+      dark: 0,
+      diffuse: 1.2,
+      scale: 1,
+      mapSamples: 16000,
+      mapBrightness: 6,
+      baseColor: [ 1, 1, 1 ],
+      markerColor: [ 1, 0.5, 1 ],
+      glowColor: [ 1, 1, 1 ],
+      offset: [ 0, 0 ],
+      markers: [
+        { location: [ 37.7595, -122.4367 ], size: 0.03 },
+        { location: [ 40.7128, -74.006 ], size: 0.1 },
+      ],
+      onRender: ( state ) => {
+        // Called on every animation frame.
+        // state will be an empty object, return updated params.
+        state.phi = phi
+        phi += 0.01
+      },
+    } )
+  </script>
 </body>
 
 </html>

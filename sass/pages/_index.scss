@@ -130,6 +130,8 @@
 }
 
 .sec-3 {
+  padding-bottom: 120px;
+
   h1 {
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -195,6 +197,22 @@
 
       h4 {
         padding-bottom: 30px;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        padding-bottom: 30px;
+      }
+
+      p {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
       }
     }
   }
@@ -202,10 +220,185 @@
   @media screen and (max-width: 1250px) {
     .cards {
       flex-wrap: wrap;
+
+      .card {
+        margin-bottom: 30px;
+      }
     }
 
     .cards-2 {
       flex-wrap: wrap;
+
+      .card {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+.sec-4 {
+  padding-bottom: 120px;
+}
+
+.sec-5 {
+  padding-bottom: 120px;
+
+  .servises {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #999999;
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    padding: 40px;
+  }
+
+  .service__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__card {
+      margin-top: 100px;
+      text-align: center;
+      width: 30%;
+
+      &__body {
+        h4 {
+          margin-top: 13px;
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 38px;
+          text-align: center;
+          letter-spacing: -0.750316px;
+          color: #000000;
+        }
+
+        p {
+          margin-top: 13px;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -0.500211px;
+          color: rgba(39, 39, 39, 0.7);
+        }
+      }
+    }
+  }
+}
+
+.sec-6 {
+  padding-bottom: 120px;
+  h1 {
+    text-align: center;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    padding-bottom: 36px;
+  }
+
+  .owl-carousel {
+    .item {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid #999999;
+      backdrop-filter: blur(1px);
+      border-radius: 20px;
+
+      .overlay {
+        padding: 30px;
+
+        h4 {
+          font-family: 'Proxima Nova';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          color: #000000;
+          padding-bottom: 40px;
+        }
+
+        p {
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          color: rgba(39, 39, 39, 0.7);
+        }
+      }
+    }
+  }
+}
+
+.sec-7 {
+  padding-bottom: 120px;
+  h1{
+    text-align: center;
+      font-family: 'Proxima Nova';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #000000;
+      padding-bottom: 36px;
+  }
+  .owl-carousel {
+    .item {
+      .card1 {
+        width: 350px;
+        height: 350px;
+        background-image: url('/images/my group/img1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .card2 {
+        width: 350px;
+        height: 350px;
+        background-image: url('/images/my group/img2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .card3 {
+        width: 350px;
+        height: 350px;
+        background-image: url('/images/my group/img3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .card4 {
+        width: 350px;
+        height: 350px;
+        background-image: url('/images/my group/img4.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .card5 {
+        width: 350px;
+        height: 350px;
+        background-image: url('/images/my group/img3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     }
   }
 }
