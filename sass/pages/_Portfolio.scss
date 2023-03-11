@@ -1,0 +1,51 @@
+/* Portfolio section */
+a {
+  text-decoration: none;
+}
+
+.portfolio {
+  &__title {
+    text-align: center;
+    h1 {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #000000;
+    }
+    &__menu {
+      &__item {
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid #999999;
+        backdrop-filter: blur(2px);
+        border-radius: 90px;
+        width: 33%;
+        margin: auto;
+        display: flex;
+        &__list {
+          list-style: none;
+          padding: 11px;
+          &__link {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #272727;
+          }
+          &__link.active {
+            padding: 10px 30px;
+            border-radius: 30px;
+            // border: 1px solid;
+            color: white;
+            background: linear-gradient(
+              93.5deg,
+              #1e11ad 12.37%,
+              rgba(105, 17, 173, 0.95) 85.28%
+            );
+          }
+        }
+        &__list:active {
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+}
