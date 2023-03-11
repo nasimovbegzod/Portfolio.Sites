@@ -1,0 +1,62 @@
+.news__page {
+  margin-top: 50px;
+  display: flex;
+  .news {
+    &__text {
+      margin-top: 40px;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid #4e4e4e;
+      backdrop-filter: blur(1px);
+      border-radius: 20px;
+      &__title h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #000000;
+      }
+      .news__texts__lorem {
+        margin: 15px 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #000000;
+      }
+      .deck {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .deck__it {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          color: #999999;
+        }
+      }
+    }
+  }
+  aside {
+    .cards {
+      margin-bottom: 30px;
+      margin-left: 35px;
+      border: 1px solid #999999;
+      backdrop-filter: blur(1px);
+      border-radius: 20px;
+      &__body {
+        padding: 15px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 765px) {
+  aside {
+    display: none;
+  }
+}
