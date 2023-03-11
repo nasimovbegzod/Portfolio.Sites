@@ -1,0 +1,211 @@
+.sec-1 {
+  padding-top: 157px;
+  background: url(/images/bg-2.pn), rgba(255, 255, 255, 0.5);
+  padding-bottom: 120px;
+
+  .home {
+    display: flex;
+    justify-content: space-between;
+
+    .sec-1-left {
+      h1 {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #000000;
+        padding-bottom: 40px;
+      }
+
+      p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        padding-bottom: 180px;
+      }
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .home {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center
+    }
+
+    .sec-1-left {
+      text-align: center;
+    }
+
+    .sec-1-right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+.sec-2 {
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+
+    .about-left {
+      h2 {
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 64px;
+        color: #000000;
+        padding-bottom: 20px;
+      }
+
+      p {
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    .about-right {
+      .projekt {
+        display: flex;
+        padding-bottom: 40px;
+        gap: 120px;
+      }
+
+      .profesion {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      span {
+        text-align: center;
+
+        h4 {
+          font-family: 'Futura PT';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 100%;
+          color: rgba(0, 40, 248, 0.89);
+        }
+      }
+
+      p {
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .about {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center
+    }
+
+    .about-left {
+      padding-bottom: 60px;
+    }
+  }
+}
+
+.sec-3 {
+  h1 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+    .card {
+      background: rgba(243, 243, 243, 0.5);
+      border: 1px solid #999999;
+      backdrop-filter: blur(2.5px);
+      border-radius: 20px;
+      padding: 30px;
+
+      img {
+        padding-bottom: 35px;
+      }
+
+      h4 {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        padding-bottom: 30px;
+      }
+
+      p {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+      }
+    }
+  }
+
+  .cards-2 {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      background: rgba(243, 243, 243, 0.5);
+      border: 1px solid #999999;
+      backdrop-filter: blur(2.5px);
+      border-radius: 20px;
+      padding: 30px;
+
+      img {
+        padding-bottom: 35px;
+      }
+
+      h4 {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+    .cards {
+      flex-wrap: wrap;
+    }
+
+    .cards-2 {
+      flex-wrap: wrap;
+    }
+  }
+}
